@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*body style */
+body{
+    background: #333 url(/images/pagebg.gif) repeat-x;
+    font-family:  'Lucida Grande',  Verdana, 'Lucida Sans Unicode', sans-serif
+}
+/* container for two columns sidebar and main */
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+/* style for all links*/
+a { 
+    text-decoration: none;
+}
+/* style for all images */
+img, a img { 
+    border: 0;
+}
+/* style for all unorder list*/
+ul, li {
+     list-style: none;
+    }
+/* ------------------------- PARAGRAPH STYLES */
+p { color: #9f9f9f; line-height: 1.5em; font-size: 1.12em; margin-left: 6px;}
+p a { color: #eee;}
+p a:hover {color: #fff; border-bottom: 1px dotted #666;}
+abbr, acronym { border-bottom: 1px dotted #666;}
+blockquote { margin: 10px auto 10px auto;width: 450px; background: #3B3B3B url(blockquote.gif) no-repeat center bottom; font-size: 1.5em; font-style: italic;}
+blockquote p { margin: 10px; padding: 10px;}
+cite { color: #555; text-indent: 20px; font-size: 0.8em;}
+pre { margin: 10px auto 10px auto; width: 450px; background: #3B3B3B url(code.gif) no-repeat center bottom; font-size: 1.4em; color: #9f9f9f;}
+p.sub { margin: -1px 0 30px 0; font-size: 0.9em; color: #777;}
+
+
+
+
+/* h4, h5, h6 { font-size: 1.3em; color: #f0f0f0; margin: 10px 10px 10px 6px; width: 80%; border-bottom: 1px dotted #666}  */
+
+/*---------------------- ARTICLE 'OPTIONS' BOX */
+/* .artop { width: 548px; height: 42px; background: #434343 url(articleoptions.gif) no-repeat;}
+.artop p { line-height: 70px; color: #8B8B8B; text-indent: 10px;}
+.artop a { color: #8B8B8B;}
+.artop a:hover  { color: #ccc; border-bottom: 1px dotted #666} */
+
+/* #leftcol 
+#leftcol ul li a:hover { color: #fff; background: #FF9215 url(bookmarkhover.gif) no-repeat;} */
+
+
+/* Sidebar column */
+#sidebar{
+    flex-basis: 30%;
+    margin-top: 40px;
+    height: 105px;
+    
+}
+/* Sidebar h1 style */
+.container h1{
+    display: flex;
+    font-size: 4.6em; 
+    white-space: pre; 
+    line-height: 38px; 
+    color: #fff;
+    flex-direction: column;
+    
+}
+/* Sidebar h1 span style */
+.container h1 span{
+    display: flex;
+    color: #FF9215; 
+    font-size: 0.8em;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/* Sidebar h3 style */
+#sidebar h3 { 
+    color: #fff; 
+    font-size: 1.3em; 
+    margin: 20px 0 10px 0;
+}
+#sidebar ul li a { 
+    color: #8B8B8B; 
+    display: block; 
+    font-size: 1em; 
+    text-indent: 10px; 
+    line-height: 25px; 
+ 
+    height: 25px;}
+
+
+
+/* #main{
+    flex-basis: 70%;
+    margin-top: 100px;
+    line-height: 1.2em;
+}
+#main h2{
+    font-size: 1em; 
+    margin: 8px 0;
+}
+#main h2 a{
+    font-size: 1.3em; 
+    padding: 0 6px; 
+    font-weight: 300; 
+    color: #F8F8F8; 
+    letter-spacing: -0.02em;
+}
+
+#main h2 a:hover { 
+    color: #fff; 
+    background: #FF8803 url(/images/headerhover.gif) repeat-x;
+}
+#main h2 small { 
+    color: #b8b8b8; 
+    margin-left: 10px;} */
